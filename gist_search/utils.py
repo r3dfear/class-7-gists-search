@@ -9,3 +9,6 @@ def get_gists(username):
     if not resp.ok:
         return None
     return resp.json()
+    
+# h = get_gists('santiago')
+# print(h)
